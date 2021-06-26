@@ -3,7 +3,6 @@ pipeline {
   environment {
     registry = "happyit/myweb"
     dockerImage = ""
-//    imagename = "yenigul/hacicenkins"
     registryCredential = 'dockerhub'
   }
 
@@ -35,13 +34,13 @@ pipeline {
       }
     }
 
-//    stage('Deploy App') {
-//      steps {
-//        script {
-//          kubernetesDeploy(configs: "myweb.yaml", kubeconfigId: "mykubeconfig")
-//        }
-//      }
-//    }
+    stage('Deploy App') {
+      steps {
+        script {
+          kubernetesDeploy(configs: "myweb.yaml", kubeconfigId: "mykubeconfig")
+        }
+      }
+    }
 
   }
 
