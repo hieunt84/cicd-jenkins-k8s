@@ -16,7 +16,7 @@ spec:
         app: myweb
     spec:
       containers:
-      - image: happyit/myweb:1
+      - image: happyit/myweb:2
         imagePullPolicy: Always
         name: myweb
 

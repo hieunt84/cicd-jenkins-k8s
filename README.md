@@ -17,6 +17,7 @@ Step2: Clone repo on devops's laptop
 Step3: Setup jenkins on k8s using helm or rancher using repo bitnami
         Jenkins Blueocean Plugin
         Jenkins Kubernetes Continuous Deployment Plugin
+        Jenkins Docker Plugin
 Step4: Make Jenkinsfile
 Step5: Run Pipeline
 Step6: Enjoy result
