@@ -23,6 +23,11 @@ Step5: Run Pipeline
 Step6: Enjoy result
   curl http://mywebsite.test
 
- 
+ ### Note
+     Jenkins Kubernetes Continuous Deployment Plugin have error
+     ref: 
+https://stackoverflow.com/questions/62688901/class-not-found-io-kubernetes-client-openapi-models-v1service
 
+    - research Kubernetes
+      https://www.youtube.com/watch?v=DAe2Md9sGNA&t=530s
    
