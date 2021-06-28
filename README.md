@@ -51,7 +51,6 @@ NOT YET SET UP NFS SERVER
     -Install jenkins
       helm install -f jenkins.values jenkins stable/jenkins
 
-
 7. Step: Make code for project
     index.html
     Dockerfile
